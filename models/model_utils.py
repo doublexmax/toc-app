@@ -14,3 +14,9 @@ def force_type(*types):
 
 		return wrapper
 	return decorator
+
+def uncover(l):
+	if isinstance(l, list):
+		return uncover(l[0])
+
+	return l

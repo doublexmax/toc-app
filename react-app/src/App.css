@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+body {
+  max-width:100%;
+  overflow-x: hidden;
+}
+
+* {
+  background-color: #9fa3ac;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header-separator {
+  margin-top:0;
+  width: 95%;
+}
+
+.navbar-brand {
+  margin-top: 5px;
+  margin-bottom:10px;
+}
+
+.active {
+  background-color: crimson !important;
+}
+
+.App-header * {
+  justify-content: center;
+}
+
+.machine-btn {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+table {
+  border: 1px solid black;
+  border-radius: 5px;
+  border-collapse: separate;
+}
+
+.states {
+  background-color: white;
+  left: 0.8vw;
+  position:relative;
+  display:table;
+  border-radius:10px;
+  border-color:black;
+  border-width:2px;
+  color:black;
+  width:100%;
+  /* padding:15px; */
+}
+
+.fillable {
+  width: fit-content;
+}
+
+.states * {
+  background-color: white;
+  color:black;
+}
+
+thead * {
+  font-size: large;
+}
+
+.addState {
+  background-color: white;
+  width:calc(100% - 8vw);
+  height:4vh;
+  left:4vw;
+  position:relative;
+  border-radius:10px;
+  border-color:black;
+  border-width:2px;
+  color:black;
+}
+
+.startState {
+  height:3vh;
+  width:calc(100%-8vw);
+  position:relative;
+  font-size:medium;
+  background-color:white;
+  color:black;
+  min-width:10vw; 
+}
+
+.dropdown button {
+  font-size:medium;
+}
+
+.dropdown-menu {
+  width:2vw;
+}
+
+.dropdown-item {
+  font-size:medium;
+  width:2vw;
+}
+
+.inputAlph {
+  background-color: white;
+  width:calc(100% - 8vw);
+  height:25vh;
+  left:4vw;
+  position:relative;
+  border-radius:10px;
+  border-color:black;
+  border-width:2px;
+  color:black;
+}
+
+.addAlph {
+  background-color: white;
+  width:calc(100% - 8vw);
+  height:4vh;
+  left:4vw;
+  position:relative;
+  border-radius:10px;
+  border-color:black;
+  border-width:2px;
+  color:black;
+}
